@@ -1,0 +1,63 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00274D;
+    color: #fff;
+    padding: 20px;
+}
+
+.university-header {
+    display: flex;
+    align-items: center;
+}
+
+.university-info {
+    margin-left: 20px;
+}
+
+.university-info h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.university-info p {
+    margin: 0;
+}
+
+.page-title h2 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #00274D;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
